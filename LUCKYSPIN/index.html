@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Spin</title>
+ 
+<!--Favicon-->
+<link rel="stylesheet" href="favicon.ico" type="image/x-icon">
+<!--Custom Style CSS link-->
+<link rel="stylesheet" href="CSS/style.css">
+ 
+<!--Bootstrap Link-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+ 
+</head>
+<body>
+ 
+<!--JS Sript-->
+<script src="JS/script.js"> </script>
+ 
+<!--Bootstrap Script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+ 
+<!--Font Awsome Icon-->
+<script src="https://kit.fontawesome.com/c25cabee86.js" crossorigin="anonymous"></script>
+ 
+ 
+<!--Navbar-->
+<nav class="navbar navbar-dark bg-dark">
+<div class="container-fluid">
+    <a href="#" class="nav-brand">
+        <i class="fa-solid fa-gamepad"></i>
+        Lucky Spin
+    </a>
+</div>
+</nav>
+ 
+<!--Main Section-->
+<div class="container text-center mt-4">
+    <h1 class="mb-3">
+    <i class="fa-soild fa-clover-mt-3"></i>
+    Spin & Win!</h1>
+ 
+ 
+<!--Input & Add button-->
+<div class="input-group mb-3 w-50 mx-auto">
+    <input type="text" id="nameInput" class="form-control" placeholder="Enter a name">
+    <button class="btn btn-success" id="addBtn">
+       <i class="fa-solid fa-add"></i>
+     Add
+    </button>
+</div>
+ 
+<!--Lists of Names-->
+<ul id="nameList" class="list-group mb-4 w-40 mx-auto"></ul>
+ 
+<!--Spin Button-->
+<button class="btn btn-danger btn-lg mb-3" id="spinbtn">
+   <i class="fa-solid fa-rotate"></i>
+    Spin
+</button>
+ 
+<!--Wheel-->
+<div id="wheel" class="wheel">?</div>
+ 
+<!--Winner-->
+<p id="winnerDisplay" class="winner mt-3">
+</p>
+</div>
+ 
+<!--Footer-->
+<footer class="bg-dark text-light text-center p-3 mt-4">
+<small> &copy; All right reserved.
+   <i class="fa-solid fa-code"></i>
+   Created by Yati Hsu Mon</small>
+</footer>
+ 
+</body>
+</html>
